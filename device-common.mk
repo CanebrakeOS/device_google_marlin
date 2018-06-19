@@ -500,9 +500,9 @@ PRODUCT_PACKAGES += \
      libvts_multidevice_proto
 endif
 
-ifeq ($(OFFICIAL_BUILD),true)
-    PRODUCT_PACKAGES += Updater
-endif
+#ifeq ($(OFFICIAL_BUILD),true)
+#    PRODUCT_PACKAGES += Updater
+#endif
 
 PRODUCT_PACKAGES += SafetyRegulatoryInfo
 
